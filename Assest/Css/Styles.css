@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color: #13293d;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
